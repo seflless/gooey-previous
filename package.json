@@ -2,6 +2,10 @@
   "name": "gooey",
   "version": "0.0.1",
   "description": "UX/Visualization system",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/francoislaberge/gooey"
+  },
   "main": "gooey.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,6 +17,13 @@
     "gooey",
     "gui"
   ],
-  "author": "",
-  "license": "MIT"
+  "author": {
+    "name": "Francois Laberge",
+    "email": "francoislaberge@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/francoislaberge/gooey/issues"
+  },
+  "homepage": "https://github.com/francoislaberge/gooey"
 }
