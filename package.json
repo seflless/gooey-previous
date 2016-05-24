@@ -1,14 +1,15 @@
 {
   "name": "gooey",
   "version": "0.0.3",
-  "description": "UX/Visualization system",
+  "description": "UX / Visualization system",
   "repository": {
     "type": "git",
     "url": "https://github.com/francoislaberge/gooey"
   },
-  "main": "gooey.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node_modules/.bin/watchify src/gooey.js -o index.js"
   },
   "keywords": [
     "ui",
@@ -17,13 +18,16 @@
     "gooey",
     "gui"
   ],
-  "author": {
-    "name": "Francois Laberge",
-    "email": "francoislaberge@gmail.com"
-  },
+  "author": "Francois Laberge <francoislaberge@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/francoislaberge/gooey/issues"
   },
-  "homepage": "https://github.com/francoislaberge/gooey"
+  "homepage": "https://github.com/francoislaberge/gooey",
+  "dependencies": {
+    "three": "^0.76.1"
+  },
+  "devDependencies": {
+    "watchify": "^3.7.0"
+  }
 }
