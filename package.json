@@ -9,7 +9,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node node_modules/.bin/watchify src/gooey.js -o index.js"
+    "watch": "node node_modules/.bin/watchify src/gooey.js -o index.js",
+    "start": "open http://localhost:8080; cd example; python -m SimpleHTTPServer 8080"
   },
   "keywords": [
     "ui",
