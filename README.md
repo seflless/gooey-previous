@@ -1,6 +1,5 @@
 # gooey
-Coming Soon
-
+In development
 
 # Contributing
 
